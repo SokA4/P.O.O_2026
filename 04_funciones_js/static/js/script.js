@@ -97,5 +97,24 @@ let codigosValidos
 
 
 /*
-*/
+Ejercicio 5: Simulador de Cuotas (for)
+Contexto: Un cliente compra un producto y el sistema le genera automáticamente las etiquetas para sus próximas 3 letras de pago.
+Función Principal: Crea simularCuotas().
+Captura el nombre del producto desde el input (ej: "Bicicleta").
+Crea una variable vacía: registroPagos = "";
+Crea un ciclo for que dé exactamente 3 vueltas (del 1 al 3).
+En cada vuelta, súmale (+=) a registroPagos el producto y el número de la cuota (Ej: producto + " - Cuota " + i + " | ").
+Fuera del ciclo, muestra la variable registroPagos en el textContent del párrafo.
+Limpia el input.*/
 
+/*
+Ejercicio 6: Filtro de Presupuesto (for e if)
+Contexto: Una vitrina virtual tiene varios precios. El cliente ingresa cuánta plata tiene en el bolsillo, y el sistema le muestra solo los precios que le alcanza para pagar.
+Crea un arreglo de precios: let vitrina = [2500, 15000, 8000, 30000, 5000];
+Función Principal: Crea filtrarPrecios().
+Captura el número desde el input (este será el presupuesto del cliente. Recuerda usar Number()).
+Crea una variable opciones = "Te alcanza para los precios: ";
+Recorre el arreglo vitrina con un for.
+Dentro del ciclo, usa un if. Si el precio actual del arreglo es menor o igual (<=) a la plata que ingresó el cliente, súmalo a la variable opciones más un guion (-).
+Muestra el resultado en el textContent del párrafo.
+Limpia el input.*/
